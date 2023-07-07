@@ -1,6 +1,5 @@
-db.sqlite3/*
-__pycache__/*
-main/*
-text/*
+db.sqlite3
+__pycache__
+
 
 
