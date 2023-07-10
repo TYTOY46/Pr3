@@ -7,13 +7,13 @@ ___
 ##  папка config ОСНОВА
 
 # как запустить проект у себя 
-
-## 1. зайдите в свой файл (в котором вы хотите разместить проект )
-## 2. скопировать 
+## :one: зайдите в свой файл (в котором вы хотите разместить проект )
+## :two: скопировать 
 ```
 git clone https://github.com/TYTOY46/Pr3.git
 ``` 
-## 3. в консоли `cmd` написать команду  `venv\Scripts\activate`
+## :three: в консоли `cmd` создать папку `python -m venv venv` 
+## :four: активируем окружение `venv\Scripts\activate`
 ```
 (c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
@@ -23,7 +23,7 @@ C:\Users\svitl\TY\V1>venv\Scripts\activate
 
 (venv) C:\Users\svitl\TY\V1>
 ```
-## 4. `pip install -r .\reguirements.txt` загрузка версий 
+## :five: загрузим файлы с `reguirements.txt` командой `pip install -r .\reguirements.txt`
 ```
 (venv) C:\Users\svitl\TY\V1>pip install -r .\reguirements.txt
 Requirement already satisfied: asgiref==3.7.2 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 1)) (3.7.2)
@@ -42,7 +42,7 @@ Requirement already satisfied: tzdata==2023.3 in c:\users\svitl\ty\v1\venv\lib\s
 (venv) C:\Users\svitl\TY\V1>
 ```
 
-## 4. потом написать в консоль `python manage.py runserver`
+## :six: потом написать в консоль `python manage.py runserver`
 ```
 (venv) C:\Users\svitl\TY\V1>python manage.py runserver
 Watching for file changes with StatReloader
@@ -54,7 +54,7 @@ Django version 4.2.2, using settings 'P2.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
-## 5. переходим по сылке `http://127.0.0.1:8000/` и воаля
+## :seven: переходим по сылке `http://127.0.0.1:8000/` и воаля
 ```
 System check identified no issues (0 silenced).
 July 09, 2023 - 22:16:12
