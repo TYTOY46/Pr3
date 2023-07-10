@@ -6,7 +6,7 @@ ___
 ##  папка app ПРИЛОЖЕНИЕ
 ##  папка config ОСНОВА
 
-# как запустить проект у себя 
+# запуск проект 
 ## :one: зайдите в свой файл (в котором вы хотите разместить проект )
 ## :two: скопировать 
 ```
@@ -15,51 +15,60 @@ git clone https://github.com/TYTOY46/Pr3.git
 ## :three: в консоли `cmd` создать папку `python -m venv venv` 
 ## :four: активируем окружение `venv\Scripts\activate`
 ```
-(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
-
-C:\Users\svitl\TY\V1>c:/Users/svitl/TY/V1/venv/Scripts/activate.bat
-
 C:\Users\svitl\TY\V1>venv\Scripts\activate
-
-(venv) C:\Users\svitl\TY\V1>
 ```
 ## :five: загрузим файлы с `reguirements.txt` командой `pip install -r .\reguirements.txt`
 ```
 (venv) C:\Users\svitl\TY\V1>pip install -r .\reguirements.txt
-Requirement already satisfied: asgiref==3.7.2 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 1)) (3.7.2)
-Requirement already satisfied: Django==4.2.2 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 2)) (4.2.2)
-Requirement already satisfied: django-classy-tags==4.0.0 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 3)) (4.0.0)
-Requirement already satisfied: django-meta==2.2.0 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 4)) (2.2.0)
-Requirement already satisfied: django-meta-mixin==0.3.0 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 5)) (0.3.0)
-Requirement already satisfied: django-sekizai==4.1.0 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 6)) (4.1.0)
-Requirement already satisfied: Pillow==9.5.0 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 7)) (9.5.0)
-Requirement already satisfied: sqlparse==0.4.4 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 8)) (0.4.4)
-Requirement already satisfied: tzdata==2023.3 in c:\users\svitl\ty\v1\venv\lib\site-packages (from -r .\reguirements.txt (line 9)) (2023.3)
-
-[notice] A new release of pip available: 22.3.1 -> 23.1.2
-[notice] To update, run: python.exe -m pip install --upgrade pip
-
-(venv) C:\Users\svitl\TY\V1>
 ```
 
 ## :six: потом написать в консоль `python manage.py runserver`
 ```
 (venv) C:\Users\svitl\TY\V1>python manage.py runserver
-Watching for file changes with StatReloader
-Performing system checks...
+```
 
-System check identified no issues (0 silenced).
-July 09, 2023 - 22:16:12
-Django version 4.2.2, using settings 'P2.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Запуск проекта
+### Начальная установка
+#### :one: Склонировать проект
 ```
-## :seven: переходим по сылке `http://127.0.0.1:8000/` и воаля
+git clone https://github.com/TYTOY46/Pr3.git
 ```
-System check identified no issues (0 silenced).
-July 09, 2023 - 22:16:12
-Django version 4.2.2, using settings 'P2.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+#### :two: Создать и активация вирутального окружения
+Создание виртуального окружения
 ```
-___
+python -m venv venv
+```
+Активация виртуального окружения
+```
+venv\Scripts\activate
+```
+Установка зависимостей
+```
+pip install -r .\reguirements.txt
+```
+
+### :three: Работа с проектом
+Запуск сервера
+```
+python manage.py runserver
+```
