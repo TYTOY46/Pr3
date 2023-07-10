@@ -10,3 +10,5 @@ def qw1(request):
     return render (request , '13im.html')
 def donat (request):
     return render(request,'14.html')
+
+# Create your views here.

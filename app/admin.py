@@ -1,5 +1,4 @@
 from django.contrib import admin
-from C2.models import Worker
+from app.models import Worker
 admin.site.register(Worker)
-
 
