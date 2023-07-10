@@ -2,3 +2,5 @@ db.sqlite3
 __pycache__
 manage.py 
 venv/*
+V1.code-workspace
+V2.code-workspace
