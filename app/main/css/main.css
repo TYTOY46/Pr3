@@ -57,11 +57,10 @@ aside{
 .No13{
   width: 250px !important;
   height: 300px !important;
-  position:absolute; top:0px; left:0px;
+  
   position: absolute;
-
-  margin-left:400px;
-  padding-top:40px;
+  padding-bottom: 50px;
+  margin-left: 30px;
   float:left;
 
 
@@ -70,13 +69,14 @@ aside{
 .No1313{
     position:relative;
     padding-top:90px;
+   
     margin-left:40px;
-
 }
 .qw{
-    margin-left:340px;
-
+    margin-left:300px;
+    padding-top: 400px;
 }
+
 
 
 .No19{
@@ -90,7 +90,7 @@ aside{
   margin-left:50px;
 }
 .fab.fa-vk{
-    color:#fcf000;
+    color:#ffc107;
     margin-left:50px;
 }
 .No20{
